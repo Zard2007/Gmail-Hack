@@ -40,7 +40,7 @@
 
 * `cd && cd Gmail-Hack && python3 Mail-Hack.py`
 #### If it does not work then the command:
-* python3 Mail-Hack.py`
+* `python3 Mail-Hack.py`
 
 ## Supporters
 [![Stargazers repo roster for @mishakorzik/Gmail-Hack](https://reporoster.com/stars/mishakorzik/Gmail-Hack)](https://github.com/mishakorzik/Gmail-Hack/stargazers)
