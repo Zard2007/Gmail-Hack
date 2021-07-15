@@ -10,4 +10,5 @@ apt install ruby
 echo -e $w"["$g"INFO"$w"]"$b" Installing Gmail-Hack: Please wait a moment..."$w
 apt install python
 apt install python2
+apt install python3
 echo -e $w"["$g"INFO"$w"]"$b" Succesfull installed Gmail-Hack: Trank for installing..."$w
