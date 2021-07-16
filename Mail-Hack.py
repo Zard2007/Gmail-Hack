@@ -1,12 +1,11 @@
 import smtplib
 import sys
+import os
 from os import system
 def artwork():
     print("\n")
-    print("")
+    os.system("figlet email-hack | lolcat -p 1.3")
     print("\n")
-    
-    
 artwork()
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 
