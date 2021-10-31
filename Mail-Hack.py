@@ -26,7 +26,6 @@ def artwork():
     ░ ░   ░ ░      ░     ░   ▒    ▒ ░  ░ ░    ░  ░░ ░  ░   ▒   ░        ░ ░░ ░
           ░        ░         ░  ░ ░      ░  ░ ░  ░  ░      ░  ░░ ░      ░  ░
                                                                ░''')
-    print("\n")
 artwork()
 smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 
@@ -34,10 +33,7 @@ smtp.ehlo()
 smtp.starttls()
 
 user = input("While The Target Gmail Adress: ")
-
-print("\n")
-
-pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\n Options: ")
+pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
 
 if pwd=='0':
     passswfile="passworld.txt"
