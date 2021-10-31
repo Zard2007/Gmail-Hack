@@ -1,4 +1,4 @@
-import smtplib, sys, os
+import smtplib, sys, os, random
 from os import system
 
 OKGREEN = '\033[92m'
@@ -15,7 +15,17 @@ GMAIL_PORT = '587'
 
 def artwork():
     print("\n")
-    os.system("figlet email-hack | lolcat -p 1.3")
+    print(RAND + '''
+     ▄████  ███▄ ▄███▓ ▄▄▄       ██▓ ██▓     ██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀
+    ██▒ ▀█▒▓██▒▀█▀ ██▒▒████▄    ▓██▒▓██▒    ▓██░ ██▒▒████▄    ▒██▀ ▀█   ██▄█▒
+   ▒██░▄▄▄░▓██    ▓██░▒██  ▀█▄  ▒██▒▒██░    ▒██▀▀██░▒██  ▀█▄  ▒▓█    ▄ ▓███▄░
+   ░▓█  ██▓▒██    ▒██ ░██▄▄▄▄██ ░██░▒██░    ░▓█ ░██ ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄
+   ░▒▓███▀▒▒██▒   ░██▒ ▓█   ▓██▒░██░░██████▒░▓█▒░██▓ ▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄
+     ░▒   ▒ ░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░ ▒░▓  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒
+      ░   ░ ░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░ ▒ ░▒░ ░  ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░
+    ░ ░   ░ ░      ░     ░   ▒    ▒ ░  ░ ░    ░  ░░ ░  ░   ▒   ░        ░ ░░ ░
+          ░        ░         ░  ░ ░      ░  ░ ░  ░  ░      ░  ░░ ░      ░  ░
+                                                               ░''')
     print("\n")
 artwork()
 smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
@@ -27,7 +37,7 @@ user = input("While The Target Gmail Adress: ")
 
 print("\n")
 
-pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\n => ")
+pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\n Options: ")
 
 if pwd=='0':
     passswfile="passworld.txt"
