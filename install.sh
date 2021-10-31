@@ -6,7 +6,6 @@ o="\033[1;33m"
 
 cd
 cd
-apt install ruby
 echo -e $w"["$g"INFO"$w"]"$b" Installing Gmail-Hack: Please wait a moment..."$w
 apt install python
 apt install python2
