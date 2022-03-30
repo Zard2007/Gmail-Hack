@@ -40,7 +40,7 @@ if pwd=='0':
 
 elif pwd=='1':
     print("\n")
-    passswfile = input("Name The File Path (For Password List) => ")
+    passswfile = input("Name The File Path (For Password List):")
 
 else:
     print("\n")
