@@ -1,7 +1,7 @@
 # Gmail-Hack
 #### Easy gmail hacking in python
 
-> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/Gmail-Hack/blob/main/LICENSE).
+> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mazeenbotz/Gmail-Hack/blob/main/LICENSE).
 
 ---------
 ## Supported systems
@@ -20,6 +20,7 @@
 ---
 <a id="installing"></a>
 ## Installing for termux
+## By Mazeen Creation
 
 * `termux-setup-storage`
 * `apt full-upgrade`
@@ -43,7 +44,7 @@
 * `python3 Mail-Hack.py`
 
 ## Supporters
-[![Stargazers repo roster for @mishakorzik/Gmail-Hack](https://reporoster.com/stars/mishakorzik/Gmail-Hack)](https://github.com/mishakorzik/Gmail-Hack/stargazers)
-[![Forkers repo roster for @mishakorzik/Gmail-Hack](https://reporoster.com/forks/mishakorzik/Gmail-Hack)](https://github.com/mishakorzik/Gmail-Hack/members)
+[![Stargazers repo roster for @mazeenbotz/Gmail-Hack](https://reporoster.com/stars/mishakorzik/Gmail-Hack)](https://github.com/mazeenbotz/Gmail-Hack/stargazers)
+[![Forkers repo roster for @mazeenbotz/Gmail-Hack](https://reporoster.com/forks/mishakorzik/Gmail-Hack)](https://github.com/mishakorzik/Gmail-Hack/members)
 
 
